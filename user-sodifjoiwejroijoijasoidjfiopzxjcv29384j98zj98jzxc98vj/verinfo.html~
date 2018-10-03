@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="/js/title.js" type="text/javascript"></script>
+		<link href="/css/desktop.css" rel="stylesheet" type="text/css">
+		<link href="/css/taskbar.css" rel="stylesheet" type="text/css">
+		<link href="/css/window.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	
+	<div class="window">
+		
+		<div class="frame">
+			<h1>Version Information</h1>
+			<p><b>Version: </b>0.2.4-test</p>
+			<p><b>Last Updated: </b>02-10-2018 15:12h</p>
+			<p><b>Timezone: </b>Europe/Amsterdam (UTC+1)</p>
+		</div>
+		
+	</div>
+	
+	<div class="taskbar">
+	
+		<div class="menu">
+			<form>
+				<button formaction="infoCenter.html">Close</button>
+			</form>
+		</div>
+		
+	</div>
+	
+	</body>
+</html>

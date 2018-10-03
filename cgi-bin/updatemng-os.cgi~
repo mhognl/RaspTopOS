@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Content-type: text/html"
+echo ""
+echo "<h1>OS Update Completed!</h1>"
+echo "<pre> $(cd /tmp && sudo wget https://mhog.nl/rasptop/update.zip && sudo wget https://mhog.nl/rasptop/recovery.zip && sudo cp recovery.zip /recovery && sudo unzip update.zip && cd rasptop-os-update && sudo mv /os/js/login.js /tmp sudo rm -rf /os/js /os/css /os/img /os/index.html /os/user-*/* && sudo rm -rf /usr/lib/cgi-bin/* && sudo cp -r ./* /os && sudo cp -r /os/cgi-bin/* /usr/lib/cgi-bin && sudo chmod a+x /usr/lib/cgi-bin/* && sudo rm -rf /usr/lib/cgi-bin/README.txt sudo rm -rf /os/cgi-bin && sudo chown -R www-data:www-data /os && sudo chown -R www-data:www-data /recovery && sudo systemctl restart apache2) </pre>"

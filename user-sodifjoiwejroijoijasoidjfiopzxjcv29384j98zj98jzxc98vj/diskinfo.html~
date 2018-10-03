@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="/js/title.js" type="text/javascript"></script>
+		<link href="/css/desktop.css" rel="stylesheet" type="text/css">
+		<link href="/css/taskbar.css" rel="stylesheet" type="text/css">
+		<link href="/css/window.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	
+	<div class="window">
+		
+		<div class="frame">
+			<iframe src="/cgi-bin/diskinfo.cgi"></iframe>
+		</div>
+		
+	</div>
+	
+	<div class="taskbar">
+	
+		<div class="menu">
+			<form>
+				<button formaction="index.html">Close</button>
+			</form>
+		</div>
+		
+	</div>
+	
+	</body>
+</html>

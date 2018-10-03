@@ -1,0 +1,19 @@
+.frame {
+	border: solid 1px black;
+	background-color: white;
+	width: 80%;
+	height: 800px;
+	position: absolute;
+	top: 5px;
+	left: 10%;
+}
+
+.frame iframe {
+	border: solid 0px black;
+	overflow: hidden;
+	width: 80%;
+	height: 800px;
+	position: absolute;
+	top: 5px;
+	left: 10%;
+}

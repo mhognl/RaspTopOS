@@ -1,0 +1,15 @@
+.browserMenu {
+	background-color: grey;
+	height: 40px;
+	width: 80%;
+	position: absolute;
+	top: 0px;
+	left: 10%;
+}
+
+iframe {
+	border: solid 1px black;
+	position: absolute;
+	top: 0px;
+	left: 10%;
+}
