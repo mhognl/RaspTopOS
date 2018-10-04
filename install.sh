@@ -79,4 +79,4 @@ echo '<IfModule mod_ssl.c>
 	</VirtualHost>
 </IfModule>' > /etc/apache2/sites-available/default-ssl.conf
 
-mkdir -p /os && mkdir -p /recovery && cd /recovery && git clone https://github.com/mhognl/RaspTopOS.git && rm -rf ./README.md && cp -r /recovery//cgi-bin/* /usr/lib/cgi-bin && cp -r /recovery/* /os && rm -rf /os/cgi-bin && chown -R www-data:www-data /os && chown -R www-data:www-data /recovery && systemctl stop ssh && systemctl disable ssh && systemctl restart apache2 && rm -rf /os/install.sh
+mkdir -p /os && mkdir -p /recovery && git clone https://github.com/mhognl/RaspTopOS.git && rm -rf /recovery/README.md && cp -r /recovery/cgi-bin/* /usr/lib/cgi-bin && cp -r /recovery/* /os && rm -rf /os/cgi-bin && chown -R www-data:www-data /os && chown -R www-data:www-data /recovery && systemctl stop ssh && systemctl disable ssh && systemctl restart apache2 && rm -rf /os/install.sh
