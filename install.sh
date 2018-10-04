@@ -6,7 +6,7 @@ fi
 
 apt install git apache2 openssh-server sudo -y && a2enmod cgi && echo 'www-data ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/web
 
-rm -rf /etc/apache2/apache2
+rm -rf /etc/apache2/apache2.conf
 
 echo 'DefaultRuntimeDir ${APACHE_RUN_DIR}
 PidFile ${APACHE_PID_FILE}
