@@ -1,4 +1,4 @@
-# RaspTop OS
+# RaspTop OS - OS for Raspberry Pi and PC
 
 The manual must be written.
 
