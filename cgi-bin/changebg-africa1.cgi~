@@ -1,0 +1,14 @@
+#!/bin/bash
+
+file=/os/bg_africa1.jpg
+if [ ! -e "$file" ]; then
+	echo "Content-type: text/html"
+	echo "Content-type: text/html"
+	echo ""
+	echo "<h1>Background already applied!</h1>"
+else
+	echo "Content-type: text/html"
+	echo ""
+	echo "Background Changed!"
+	echo ""
+fi 
