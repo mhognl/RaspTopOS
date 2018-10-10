@@ -16,3 +16,7 @@ If you're not happy with the OS or want to remove it for some reason, you can ru
 
 
 **NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
+
+## Upgrading from v0.4 to v0.5
+
+Please run the upgrade script from v0.4 to v0.5. It will do all the commands for you. You must have enabled SSH or access to the Linux shell.
