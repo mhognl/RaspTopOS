@@ -6,8 +6,13 @@ It's tested on PC, but not as well-tested as the Pi. On the Pi it's tested on Ra
 
 ## Installing
 
-To install the OS, you can run the install-[distro].sh. I recommend you to copy and paste the script, because WGET is not working very well. The script must be run as root.
+To install the OS, you can run the install-[distro].sh.
+
+**NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
 
 ## Uninstalling
 
-If you're not happy with the OS or want to remove it for some reason, you can run the uninstaller script. It's recommend to take a look at the source code, because it will remove packages you may be using.
+If you're not happy with the OS or want to remove it for some reason, you can run the uninstaller script. It's recommend to take a look at the source code, because it will remove packages you may be using. 
+
+
+**NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
