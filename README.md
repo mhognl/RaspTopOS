@@ -26,4 +26,9 @@ Please run the upgrade script from v0.4 to v0.5. It will do all the commands for
 
 ## Loading the OS
 
-The OS is loaded to RAM with a service with the name 'loados.service'. One requirement is that you have Debian and a Debian/Ubuntu-based distro.
+The OS is loaded to RAM with a service with the name 'loados.service'. One requirement is that you have a Debian/Ubuntu-based distro and systemd.
+
+
+## Upgrading from old 0.5
+
+There are different version of 0.5, the upgrade process is as following: update your OS and copy install.sh source code into install.sh on your storage disk. chmod +x install.sh and run it. Enjoy!
