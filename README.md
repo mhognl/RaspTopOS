@@ -21,7 +21,9 @@ If you're not happy with the OS or want to remove it for some reason, you can ru
 
 Please run the upgrade script from v0.4 to v0.5. It will do all the commands for you. You must have enabled SSH or access to the Linux shell.
 
-## Loading the OS (IMPORTANT!)
+**NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
 
-If you restart your computer, YOU MUST GO TO http://[your-url]/cgi-bin/loados.cgi
-Then follow the instructions to go to your OS (one button, one click).
+
+## Loading the OS
+
+The OS is loaded to RAM with a service with the name 'loados.service'. One requirement is that you have Debian and a Debian/Ubuntu-based distro.
