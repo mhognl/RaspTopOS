@@ -34,3 +34,6 @@ Please run the upgrade script from v0.5 to v0.5.1. It will do all the commands f
 ## Upgrading from old 0.5
 
 There are different version of 0.5, the upgrade process is as following: update your OS and copy install.sh source code into install.sh on your storage disk. chmod +x install.sh and run it. Enjoy!
+
+## Wiki
+We have a Wiki where more information can be found about RaspTop OS.
