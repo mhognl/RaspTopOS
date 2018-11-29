@@ -55,7 +55,7 @@ Then you can normally update the os on the web interface (Settings -> Update Man
 *Password:* admin
 
 **For the web console:**
-*Username:* rasptop
+*Username:* raspto
 *Password:* rasptop
 
 ## Wiki
