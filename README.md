@@ -22,6 +22,7 @@ If you're not happy with the OS or want to remove it for some reason, you can ru
 Please run the upgrade script from v0.4 to v0.5. It will do all the commands for you. You must have enabled SSH or access to the Linux shell.
 
 **NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
+
 **NOTE2: USING THIS SCRIPT IS AT YOUR OWN RISK.**
 
 ## Upgrading from v0.5 to v0.5.1
