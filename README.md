@@ -35,5 +35,27 @@ Please run the upgrade script from v0.5 to v0.5.1. It will do all the commands f
 
 There are different version of 0.5, the upgrade process is as following: update your OS and copy install.sh source code into install.sh on your storage disk. chmod +x install.sh and run it. Enjoy!
 
+## A note about 0.6...
+
+If you're upgrading from v0.6 to v0.7, you only need to install php. Run the following command:
+*sudo apt install php -y*
+
+Then you can normally update the os on the web interface (Settings -> Update Manager -> Update OS).
+
+***That's it!***
+
+## Web Interface login credentials
+
+*Help! I can't login, because previous versions had no username/password!*
+***No panic! Here are the credentials:***
+
+**For the web interface:**
+*Username:* admin
+*Password:* admin
+
+**For the web console:**
+*Username:* rasptop
+*Password:* rasptop
+
 ## Wiki
 We have a Wiki where more information can be found about RaspTop OS.
