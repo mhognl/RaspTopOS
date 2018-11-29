@@ -51,11 +51,15 @@ Then you can normally update the os on the web interface (Settings -> Update Man
 ***No panic! Here are the credentials:***
 
 **For the web interface:**
+
 *Username:* admin
+
 *Password:* admin
 
 **For the web console:**
+
 *Username:* rasptop
+
 *Password:* rasptop
 
 ## Wiki
