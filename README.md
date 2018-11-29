@@ -31,6 +31,13 @@ Please run the upgrade script from v0.5 to v0.5.1. It will do all the commands f
 **NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
 **NOTE2: USING THIS SCRIPT IS AT YOUR OWN RISK.**
 
+## Upgrading from v0.5.1.1 to v0.6
+
+Please run the upgrade script from v0.5.1.1 to v0.6. It will do all the commands for you. You must have enabled SSH or access to the Linux shell.
+
+**NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
+**NOTE2: USING THIS SCRIPT IS AT YOUR OWN RISK.**
+
 ## Upgrading from old 0.5
 
 There are different version of 0.5, the upgrade process is as following: update your OS and copy install.sh source code into install.sh on your storage disk. chmod +x install.sh and run it. Enjoy!
