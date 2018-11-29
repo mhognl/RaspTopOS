@@ -40,6 +40,7 @@ There are different version of 0.5, the upgrade process is as following: update 
 ## A note about 0.6...
 
 If you're upgrading from v0.6 to v0.7, you only need to install php. Run the following command:
+
 *sudo apt install php -y*
 
 Then you can normally update the os on the web interface (Settings -> Update Manager -> Update OS).
