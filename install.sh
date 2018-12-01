@@ -142,4 +142,4 @@ systemctl restart apache2
 rm -rf /tmp/RaspTopOS
 ufw allow 22
 ufw allow 80
-ufw enable
+echo "y" | ufw enable
