@@ -4,7 +4,7 @@ then
     exit 1
 fi
 
-apt update && apt install git apache2 openssh-server sudo net-tools libapache2-mod-perl2 libcgi-session-perl libapache-htpasswd-perl php -y
+apt update && apt install git apache2 openssh-server sudo net-tools libapache2-mod-perl2 libcgi-session-perl libapache-htpasswd-perl php ufw -y
 a2enmod cgi
 echo 'www-data ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/web
 
@@ -140,3 +140,6 @@ systemctl disable ssh
 systemctl enable apache2
 systemctl restart apache2
 rm -rf /tmp/RaspTopOS
+ufw allow 22
+ufw allow 80
+ufw enable
