@@ -6,16 +6,19 @@ It's tested on PC, but not as well-tested as the Pi. On the Pi it's tested on Ra
 
 ## Installing
 
-To install the OS, you can run the install-[distro].sh.
+To install the OS, just copy and paste the folllowing:
 
-**NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
+curl https://tomaaien.nl/rasptopos/install | bash
+
+**NOTE: The script must be run as root.**
 
 ## Uninstalling
 
 If you're not happy with the OS or want to remove it for some reason, you can run the uninstaller script. It's recommend to take a look at the source code, because it will remove packages you may be using. 
 
+curl https://tomaaien.nl/rasptopos/uninstall | bash
 
-**NOTE: Recommended to copy and paste the script, because WGET is not working very well. The script must be run as root.**
+**NOTE: The script must be run as root.**
 
 ## Upgrading from v0.4 to v0.5
 
