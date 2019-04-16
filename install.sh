@@ -139,3 +139,4 @@ systemctl disable ssh
 systemctl enable apache2
 systemctl restart apache2
 rm -rf /tmp/RaspTopOS
+mkdir -p /var/www/.ssh
