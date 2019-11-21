@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Content-type: text/html"
+echo ""
+echo "<h2>Updating now...</h2>"
+echo "<h3>Please wait 2 minutes!</h3>"
+echo "<pre>$(cd / && git clone --single-branch --branch testing https://github.com/mhognl/RaspTopOS.git && rm -r /recovery /os && rsync --progress RaspTopOS /os && rsync --progress RaspTopOS /recovery && rm -r RaspTopOS)</pre>"
+echo "<i>Updating rights now...</i>"
+echo "<pre>$(chmod +x /os/cgi-bin/* && chown -R www-data: /os/*)"
+echo "<i>...Finished!</i>"
+echo "<i>Update completed! Restarting web server now...</i>"
+echo "<pre>$(systemctl restart apache2)</pre>"
+echo "<i>...Completed!</i>"
+echo "<i><a href='index.html'>Click here to return to index</a></i>"

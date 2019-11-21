@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="jquery/jquery-ui.css">
+  <link rel="stylesheet" href="jquery/style.css">
+  <script src="jquery/jquery.js"></script>
+  <script src="jquery/jquery-ui.js"></script>
+		
+		
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+		<style>
+			.ui-menu {
+				width: 150px;
+			}
+			
+			a {
+				text-decoration: none;
+				color: black;
+				cursor: default;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			}
+			
+			#menu div {
+				border: solid 1px black;
+				color: black;
+				font-size: 16px;
+				font-family: Arial;
+				padding: 5px;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var build_nr="20191311";
+			
+			document.title="RaspTopOS " + build_nr;
+		</script>
+		<h1>Welcome to RaspTopOS!</h1>
+		<ul id="menu">
+			<li><div>Information Center</div>
+				<ul>
+					<li><div><a href="run_task.html?q=memory_usage" target="_blank">Memory usage</a></div></li>
+					<li><div><a href="run_task.html?q=disk_usage" target="_blank">Disk usage</a></div></li>
+					<li><div><a href="run_task.html?q=net_info" target="_blank">Network information</a></div></li>
+					<li><div><a href="run_task.html?q=ver_info" target="_blank">Version information</a></div></li>
+				</ul>
+			</li>
+			<li><div>Settings</div>
+				<ul>
+					<li><div>SSH toggle</div>
+						<ul>
+							<li><div><a href="run_task.html?q=ssh_enable" target="_blank">Enable</a></div></li>
+							<li><div><a href="run_task.html?q=ssh_disable" target="_blank">Disable</a></div></li>
+						</ul>
+					</li>
+					<li><div><a href="run_task.html?q=usrmng" target="_blank">User management</a></div></li>
+					<li><div>Update Manager</div>
+						<ul>
+							<li><div><a href="run_task.html?q=update-ui" target="_blank">Update UI</a></div></li>
+						</ul>
+					</li>
+					<li><div><a href="run_task.html?q=recovery" target="_blank">Recovery</a></div></li>
+				</ul>
+			</li>
+			<li><div><a href="apps/console.php">Console</a></div></li>
+			<li><div>System state</div>
+				<ul>
+					<li><div><a href="cgi-bin/shutdown.cgi">Shutdown</a></div></li>
+					<li><div><a href="cgi-bin/reboot.cgi">Reboot</a></div></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

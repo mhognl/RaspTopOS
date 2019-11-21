@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript">
+			document.title="RaspTopOS - Running task...";
+		</script>
+	</head>
+	<body>
+		<form>
+			<button formaction="index.html">Return to index</button>
+		</form>
+		<iframe width="100%" height="500" id="frame_post"></iframe>
+		
+		<script type="text/javascript">
+			if (location.search=="?q=memory_usage") {
+				document.getElementById("frame_post").src="cgi-bin/mem_usage.cgi";
+			}
+			
+			if (location.search=="?q=disk_usage") {
+				document.getElementById("frame_post").src="cgi-bin/disk_usage.cgi";
+			}
+			
+			if (location.search=="?q=net_info") {
+				document.getElementById("frame_post").src="cgi-bin/netinf.cgi";
+			}
+			
+			if (location.search=="?q=net_info") {
+				document.getElementById("frame_post").src="cgi-bin/verinf.cgi";
+			}
+			
+			if (location.search=="?q=ssh_enable") {
+				document.getElementById("frame_post").src="cgi-bin/ssh_enable.cgi";
+			}
+			
+			if (location.search=="?q=ssh_disable") {
+				document.getElementById("frame_post").src="cgi-bin/ssh_disable.cgi";
+			}
+			
+			if (location.search=="?q=usrmng") {
+				document.getElementById("frame_post").src="cgi-bin/usrmng.pl";
+			}
+			
+			if (location.search=="?q=update-ui") {
+				document.getElementById("frame_post").src="cgi-bin/update-ui.cgi";
+			}
+			
+			if (location.search=="?q=recovery") {
+				document.getElementById("frame_post").src="recovery.html";
+			}
+			
+			if (location.search=="?q=console") {
+				document.getElementById("frame_post").src="apps/console.php";
+			}
+		</script>
+	</body>
+</html>
