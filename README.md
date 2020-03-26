@@ -1,4 +1,5 @@
-# RaspTop OS - OS for Raspberry Pi and PC
+# RaspTop OS - OS for Raspberry Pi and PC (Inactive)
+## I decided to stop a few of my projects. The reaseon is that there's more time for future projects.
 
 RaspTop OS is a OS for Raspberry Pi and PC. It's focused and well-tested on the Raspberry Pi.
 
